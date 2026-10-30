@@ -1,0 +1,30 @@
+# Configuração local (contém caminhos internos)
+config.toml
+!exemplos/config.toml
+
+# Script original de produção (caminhos internos da empresa)
+Base_Notas_Serviço.py
+
+# Saídas
+*.db
+*.csv.tmp
+saida/
+!exemplos/saida/
+exemplos/saida/*.html
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Ferramentas
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.vscode/
+.idea/

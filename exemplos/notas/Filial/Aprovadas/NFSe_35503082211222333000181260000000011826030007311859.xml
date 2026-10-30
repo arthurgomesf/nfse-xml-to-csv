@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NFSe xmlns="http://www.sped.fazenda.gov.br/nfse" versao="1.00">
+  <infNFSe Id="NFS35503082211222333000181260000000011826030007311859">
+    <xLocEmi>São Paulo</xLocEmi>
+    <xLocPrestacao>São Paulo</xLocPrestacao>
+    <nNFSe>2600000000118</nNFSe>
+    <cLocIncid>3550308</cLocIncid>
+    <xLocIncid>São Paulo</xLocIncid>
+    <xTribNac>Lubrificação, limpeza, revisão e manutenção de máquinas</xTribNac>
+    <verAplic>SefinNac_1.4.0</verAplic>
+    <ambGer>2</ambGer>
+    <tpEmis>1</tpEmis>
+    <cStat>100</cStat>
+    <dhProc>2026-03-18T10:47:31-03:00</dhProc>
+    <nDFSe>900005</nDFSe>
+    <emit>
+      <CNPJ>11222333000181</CNPJ>
+      <IM>1234567</IM>
+      <xNome>Alfa Manutenção Industrial Ltda</xNome>
+      <enderNac>
+        <xLgr>Rua das Indústrias</xLgr>
+        <nro>100</nro>
+        <xBairro>Distrito Industrial</xBairro>
+        <cMun>3550308</cMun>
+        <UF>SP</UF>
+        <CEP>01000000</CEP>
+      </enderNac>
+    </emit>
+    <valores>
+      <vBC>3120.00</vBC>
+      <pAliqAplic>2.00</pAliqAplic>
+      <vISSQN>62.40</vISSQN>
+      <vTotalRet>0.00</vTotalRet>
+      <vLiq>3120.00</vLiq>
+    </valores>
+    <DPS versao="1.00">
+      <infDPS Id="DPS355030821122233300018100900000000000000861">
+        <tpAmb>1</tpAmb>
+        <dhEmi>2026-03-18T10:47:31-03:00</dhEmi>
+        <verAplic>ERP_Prestador_2.1</verAplic>
+        <serie>900</serie>
+        <nDPS>861</nDPS>
+        <dCompet>2026-03-18</dCompet>
+        <tpEmit>1</tpEmit>
+        <cLocEmi>3550308</cLocEmi>
+        <subst>
+          <chSubstda>35503082211222333000181260000000011526030007319999</chSubstda>
+          <cMotivo>99</cMotivo>
+          <xMotivo>Correção do valor do serviço</xMotivo>
+        </subst>
+        <prest>
+          <CNPJ>11222333000181</CNPJ>
+          <regTrib>
+            <opSimpNac>1</opSimpNac>
+            <regEspTrib>0</regEspTrib>
+          </regTrib>
+        </prest>
+        <toma>
+          <CNPJ>12345678000276</CNPJ>
+          <xNome>Indústria Exemplo S.A. - Filial</xNome>
+        </toma>
+        <serv>
+          <locPrest>
+            <cLocPrestacao>3550308</cLocPrestacao>
+          </locPrest>
+          <cServ>
+            <cTribNac>140101</cTribNac>
+            <xDescServ>Calibração de instrumentos de medição - Pedido 4500310</xDescServ>
+            <cNBS>120013100</cNBS>
+          </cServ>
+        </serv>
+        <valores>
+          <vServPrest>
+            <vServ>3120.00</vServ>
+          </vServPrest>
+          <trib>
+            <tribMun>
+              <tribISSQN>1</tribISSQN>
+              <tpRetISSQN>1</tpRetISSQN>
+            </tribMun>
+          </trib>
+        </valores>
+      </infDPS>
+    </DPS>
+  </infNFSe>
+</NFSe>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NFSe xmlns="http://www.sped.fazenda.gov.br/nfse" versao="1.00">
+  <infNFSe Id="NFS35503082233444555000163260000000023326030007311112">
+    <xLocEmi>São Paulo</xLocEmi>
+    <xLocPrestacao>São Paulo</xLocPrestacao>
+    <nNFSe>2600000000233</nNFSe>
+    <cLocIncid>3550308</cLocIncid>
+    <xLocIncid>São Paulo</xLocIncid>
+    <xTribNac>Engenharia, agronomia, arquitetura e congêneres</xTribNac>
+    <verAplic>SefinNac_1.4.0</verAplic>
+    <ambGer>2</ambGer>
+    <tpEmis>1</tpEmis>
+    <cStat>100</cStat>
+    <dhProc>2026-03-11T11:02:10-03:00</dhProc>
+    <nDFSe>900003</nDFSe>
+    <emit>
+      <CNPJ>33444555000163</CNPJ>
+      <IM>3456789</IM>
+      <xNome>Gama Engenharia e Projetos Ltda</xNome>
+      <enderNac>
+        <xLgr>Rua das Indústrias</xLgr>
+        <nro>100</nro>
+        <xBairro>Distrito Industrial</xBairro>
+        <cMun>3550308</cMun>
+        <UF>SP</UF>
+        <CEP>01000000</CEP>
+      </enderNac>
+    </emit>
+    <valores>
+      <vBC>18750.00</vBC>
+      <pAliqAplic>5.00</pAliqAplic>
+      <vISSQN>937.50</vISSQN>
+      <vTotalRet>0.00</vTotalRet>
+      <vLiq>18750.00</vLiq>
+    </valores>
+    <DPS versao="1.00">
+      <infDPS Id="DPS355030823344455500016300900000000000000077">
+        <tpAmb>1</tpAmb>
+        <dhEmi>2026-03-11T11:02:10-03:00</dhEmi>
+        <verAplic>ERP_Prestador_2.1</verAplic>
+        <serie>900</serie>
+        <nDPS>77</nDPS>
+        <dCompet>2026-03-11</dCompet>
+        <tpEmit>1</tpEmit>
+        <cLocEmi>3550308</cLocEmi>
+        <prest>
+          <CNPJ>33444555000163</CNPJ>
+          <regTrib>
+            <opSimpNac>1</opSimpNac>
+            <regEspTrib>0</regEspTrib>
+          </regTrib>
+        </prest>
+        <toma>
+          <CNPJ>12345678000195</CNPJ>
+          <xNome>Indústria Exemplo S.A.</xNome>
+        </toma>
+        <serv>
+          <locPrest>
+            <cLocPrestacao>3550308</cLocPrestacao>
+          </locPrest>
+          <cServ>
+            <cTribNac>070101</cTribNac>
+            <xDescServ>Elaboração de projeto elétrico da linha de extrusão 4</xDescServ>
+            <cNBS>114011000</cNBS>
+          </cServ>
+          <infoCompl>
+            <xPed>4500201</xPed>
+          </infoCompl>
+        </serv>
+        <valores>
+          <vServPrest>
+            <vServ>18750.00</vServ>
+          </vServPrest>
+          <trib>
+            <tribMun>
+              <tribISSQN>1</tribISSQN>
+              <tpRetISSQN>1</tpRetISSQN>
+            </tribMun>
+          </trib>
+        </valores>
+      </infDPS>
+    </DPS>
+  </infNFSe>
+</NFSe>

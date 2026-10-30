@@ -1,0 +1,13 @@
+# Configuração de demonstração com NFS-e fictícias.
+# Execute na raiz do projeto:  python -m nfse_extractor -c exemplos/config.toml
+
+[saida]
+csv = "saida/notas_servico.csv"
+
+[[unidades]]
+nome = "Matriz"
+pasta = "notas/Matriz"
+
+[[unidades]]
+nome = "Filial"
+pasta = "notas/Filial"

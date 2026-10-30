@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NFSe xmlns="http://www.sped.fazenda.gov.br/nfse" versao="1.00">
+  <infNFSe Id="NFS{chave}">
+    <xLocEmi>São Paulo</xLocEmi>
+    <xLocPrestacao>São Paulo</xLocPrestacao>
+    <nNFSe>{nnfse}</nNFSe>
+    <cLocIncid>3550308</cLocIncid>
+    <xLocIncid>São Paulo</xLocIncid>
+    <xTribNac>{xtrib}</xTribNac>
+    <verAplic>SefinNac_1.4.0</verAplic>
+    <ambGer>2</ambGer>
+    <tpEmis>1</tpEmis>
+    <cStat>100</cStat>
+    <dhProc>{dhemi}</dhProc>
+    <nDFSe>{ndfse}</nDFSe>
+    <emit>
+      <CNPJ>{emit_cnpj}</CNPJ>
+      <IM>{emit_im}</IM>
+      <xNome>{emit_nome}</xNome>
+      <enderNac>
+        <xLgr>Rua das Indústrias</xLgr>
+        <nro>100</nro>
+        <xBairro>Distrito Industrial</xBairro>
+        <cMun>3550308</cMun>
+        <UF>SP</UF>
+        <CEP>01000000</CEP>
+      </enderNac>
+    </emit>
+    <valores>
+      <vBC>{vserv}</vBC>
+      <pAliqAplic>{a

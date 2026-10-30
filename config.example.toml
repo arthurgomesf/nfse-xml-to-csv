@@ -1,0 +1,19 @@
+# Copie este arquivo para "config.toml" e ajuste os caminhos.
+# Dica: no Windows, use aspas simples para que as barras invertidas não sejam interpretadas.
+# Caminhos relativos são resolvidos a partir da pasta deste arquivo.
+
+[saida]
+csv = 'C:\Caminho\Para\SharePoint\Notas de Serviço\notas_servico.csv'
+# sqlite = 'C:\Caminho\Para\notas_servico.db'   # opcional
+
+# Uma seção [[unidades]] por empresa/filial emissora.
+# "pasta" deve conter as subpastas Aprovadas\ e Canceladas\ ...
+[[unidades]]
+nome = "Matriz"
+pasta = 'C:\Caminho\Para\SharePoint\Notas de Serviço\Emissor Nacional - Matriz'
+
+# ... ou informe cada pasta explicitamente:
+[[unidades]]
+nome = "Filial"
+aprovadas = 'C:\Caminho\Para\SharePoint\Notas de Serviço\Emissor Nacional - Filial\Aprovadas'
+canceladas = 'C:\Caminho\Para\SharePoint\Notas de Serviço\Emissor Nacional - Filial\Canceladas'
